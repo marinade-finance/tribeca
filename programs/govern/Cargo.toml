@@ -23,8 +23,8 @@ default = []
 anchor-lang = ">=0.22"
 anchor-spl = ">=0.22"
 num-traits = "0.2"
-smart-wallet = { version = "^0.11.0", features = ["cpi"] }
-vipers = "^2.0"
+smart-wallet = { git = "https://github.com/marinade-finance/goki", branch = "anchor_26", features = ["cpi"] }
+vipers = { git = "https://github.com/marinade-finance/vipers.git", branch = "anchor_26" }
 
 [dev-dependencies]
 proptest = { version = "1.0" }
